@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@nx-redux-toolkit/react-test-utils": [
+        "libs/react-test-utils/src/index.ts"
+      ],
+      "@nx-redux-toolkit/redux-modules": ["libs/redux-modules/src/index.ts"],
+      "@nx-redux-toolkit/types": ["libs/types/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
